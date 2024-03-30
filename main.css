@@ -1,0 +1,90 @@
+
+/* Estilos personalizados */
+
+/* Cabeçalho */
+header {
+    background-color: #add8e6; /* Azul claro */
+    padding: 20px 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 70%;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #4b0082; /* Azul-índigo */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    color: #ff69b4; /* Rosa claro */
+  }
+  
+  .navbar-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+
+  
+  /* Carousel */
+  .carousel-item img {
+    height: 900px; /* Altura desejada para as imagens */
+    width: 100%; /* Garante que a largura se ajuste automaticamente */
+    margin: 0; /* Centraliza horizontalmente */
+  }
+
+  .carousel {
+    width:100%; /* Define a largura do carrossel */
+    margin: 0; /* Centraliza horizontalmente */
+  }
+  
+  /* Sobre a sorveteria */
+  #about {
+    background-color: #ff69b4; /* Rosa claro */
+    color: #006400; /* Verde escuro */
+    padding: 50px 0;
+}
+  
+  #about img {
+    max-width: 100%;
+  }
+  
+  /* Resumo do cardápio */
+  #menu {
+    background-color: #90ee90; /* Verde claro */
+    color: #4b0082; /* Azul-índigo */
+    padding: 50px 0;
+  }
+
+   /* Estilos para dispositivos móveis */
+   @media screen and (max-width: 768px) {
+    /* Estilos para diminuir o tamanho das imagens do carrossel */
+    .carousel-item img {
+      max-height: 350px; /* Altura desejada para as imagens */
+    }
+}
+  /* Footer */
+  footer {
+    background-color: #add8e6; /* Azul claro */
+    color: #4b0082; /* Azul-índigo */
+    padding: 50px 0;
+  }
+  
+  footer a {
+    color: #4b0082; /* Azul-índigo */
+  }
+  
+  footer a:hover {
+    color: #ff69b4; /* Rosa claro */
+  }
